@@ -1,4 +1,4 @@
-# Frequency response of 2 stage Miller copmensated amplifier
+# Frequency response of 2 stage Miller compensated amplifier
 
 ## Motivation
 
