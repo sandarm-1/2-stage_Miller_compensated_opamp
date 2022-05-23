@@ -10,7 +10,7 @@ Analysis of 2-stage Miller compensated op amp
 
 ### At transistor level:
 
-![image](https://user-images.githubusercontent.com/95447782/169705568-bf4a9597-12dd-45d1-a2f0-9a2c498c13f8.png)
+![image](https://user-images.githubusercontent.com/95447782/169830226-30c82a40-0b12-4cb1-b82f-134cdf2b8eb1.png)
 
 
 
