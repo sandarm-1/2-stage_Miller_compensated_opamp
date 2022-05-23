@@ -27,4 +27,4 @@ Next thing to look at is swing limits for the 2 stage amplifier.
 
 Next:
 * [Swing limits](/Swing_analysis.md)
-* 
+
