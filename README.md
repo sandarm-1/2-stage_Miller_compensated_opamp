@@ -22,11 +22,11 @@ Analysis of 2-stage Miller compensated op amp
 
 [Noise](/Noise_analysis.md)
 
-Swing limits
+[Swing limits](/Swing_analysis.md)
 
-Slew Rate
+[Slew Rate](/Slew_Rate_analysis.md)
 
-Design trade-offs and limitations
+
 
 
 References
