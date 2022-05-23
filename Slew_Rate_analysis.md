@@ -21,10 +21,10 @@ We see that in the case with a negative step on the input the output slew rate c
 ![image](https://user-images.githubusercontent.com/95447782/169825057-31870b77-3a5b-45b7-a3b0-69dea4d08a17.png)
 
 
-Next thing to look at is swing limits for the 2 stage amplifier.
 
-## Swing limits
+
+## Final thoughts
 
 Next:
-* [Swing limits](/Swing_analysis.md)
+* [Final thoughts](/Final_thoughts.md)
 
