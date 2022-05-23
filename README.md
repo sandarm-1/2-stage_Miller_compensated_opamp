@@ -26,6 +26,8 @@ Analysis of 2-stage Miller compensated op amp
 
 [Slew Rate](/Slew_Rate_analysis.md)
 
+[Final thoughts on 2 stage op amp](/Final_thoughts.md)
+
 
 
 
