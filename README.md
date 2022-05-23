@@ -30,6 +30,12 @@ Analysis of 2-stage Miller compensated op amp
 
 
 
+## See also: single stage amplifier (5T op amp)
+
+(Separate repo):
+
+[Single stage op amp (5T op amp)](https://github.com/powergainer/5T_Amplifier)
+
 
 References
 ---
