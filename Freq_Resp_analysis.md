@@ -133,7 +133,7 @@ One thing to note here is, for Gm1 we need to use the Ym(s) which we already obt
 
 Now let´s insert the values into the overall transfer function of the 2 stage opamp:
 
-![image](https://user-images.githubusercontent.com/95447782/169705882-df647e96-7496-498f-b642-3401818cf4b4.png)
+![image](https://user-images.githubusercontent.com/95447782/170734642-58ffc991-3ac8-4ae2-9172-b175096dad5d.png)
 
 
 Now let’s see with specific values why the 2-stage opamp advantage is that it allows us to achieve decent DC gain into a resistive load.
