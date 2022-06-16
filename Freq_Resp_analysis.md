@@ -91,7 +91,9 @@ It turns out **the Miller cap does the effect of POLE SPLITTING. The dominant po
 This is the overall “Frequency response datasheet” that we have for the 2-stage op amp Versus the single stage one (at transconductor level, not at transistor level, hence neglecting parasitic caps here):
 
 ![image](https://user-images.githubusercontent.com/95447782/169705792-fb31bb74-caf0-4ec3-9f8f-db002c93cf2d.png)
-
+ 
+ 
+ Note, here at transconductor level **we can already see the right half plane zero (RHPZ), that is z1=Gm2/C,** where Gm2 is the 2nd stage transconductor's transconductance and C is the Miller Cap. So, **the RHPZ comes from the parallel path created by the Miller cap in parallel with Gm2.** We have obtained it simply from applying nodal analysis to the 2 transconductors plus the Miller cap (no parasitic caps taken into account yet), writing the conductance matrix and then solving with Cramer's rule. By doing that we got the transfer function and in that transfer function we got a zero on the numerator, and it's a positive zero so it's in the Right Half Plane so that's where the RHPZ comes from. This zero is the one that can create stability concern as it creates phase lag and for this zero you see sometimes the nulling resistor in series with the Miller cap.
 
 One thing to note is, the single stage opamps (transconductors driving a capacitive load) we have shown them as SINGLE POLE SYSTEMS, because we are at this point thinking of them as IDEAL transconductors, so there is only one pole (load cap). But in reality we saw that once we implement this single stage amp with for example a 5T amplifier circuit at transistor level, once we take into account the parasitic cap of that circuit, then it becomes a 2 pole system on its own. But it’s ok the Miller principle is illustrated well anyway with ideal transconductors.
 
@@ -135,6 +137,13 @@ Now let´s insert the values into the overall transfer function of the 2 stage o
 
 ![image](https://user-images.githubusercontent.com/95447782/170734642-58ffc991-3ac8-4ae2-9172-b175096dad5d.png)
 
+
+Note, in the datasheet or summary above:
+* p1 is the dominant pole, lowest frequency, already pushed to lower frequency by the "pole splitting" effect
+* p2 is the non-dominant pole, the one that gets pushed to higher frequency by the "pole splitting" effect
+* p3 is the pole created by the parasitic cap Cd3 inside the first, single stage amp
+* z1 is the RHPZ, right half plane zero, it comes from the parallel path created by the Miller cap in parallel with Gm2
+* z2 is the pole created by the parasitic cap Cd3 inside the first, single stage amp, it's 2x the frequency of the p3 pole
 
 Now let’s see with specific values why the 2-stage opamp advantage is that it allows us to achieve decent DC gain into a resistive load.
 
